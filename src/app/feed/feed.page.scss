@@ -1,0 +1,57 @@
+.botonCamara{
+  position: fixed;
+  top: 58.2%; /* Puedes ajustar la posición vertical según tus necesidades */
+  left: 20px; /* Ajusta la posición lateral izquierda según tus necesidades */
+  transform: translateY(-50%);
+  width: 180px; 
+  padding: 10px 15px; 
+  text-align: center;
+  --background: #ffde59; /* Cambia el color de fondo según tus preferencias */
+  text-transform: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+
+.botonAsistencias {
+  position: fixed;
+  top: 55%; /* Ajusta la posición vertical según tus necesidades */
+  right: 20px; /* Ajusta la posición lateral derecha según tus necesidades */
+  transform: translateX(0%);
+  width: 180px;
+  padding: 10px 15px;
+  text-align: center;
+  --background: #ffde59; /* Cambia el color de fondo según tus preferencias */
+  text-transform: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+
+.botonIngresar {
+  position: fixed;
+  top: 50%; /* Ajusta la posición vertical según tus necesidades */
+  right: 110px; /* Ajusta la posición lateral derecha según tus necesidades */
+  transform: translateX(0%);
+  width: 180px;
+  padding: 10px 15px;
+  text-align: center;
+  --background: #ffde59; /* Cambia el color de fondo según tus preferencias */
+  text-transform: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+ion-avatar{
+  margin: auto;
+  position: relative;
+  background: rgb(138, 138, 138);
+  width:  80px;
+  height: 80px;
+  border-radius: 50%;
+  top: 60px;
+  
+}
+
+
+

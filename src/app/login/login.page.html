@@ -1,0 +1,38 @@
+<!-- Componente para Header de las páginas -->
+<app-header></app-header>
+
+<ion-content class="ion-padding ion-content">
+  
+  <div class="ion-text-center">
+
+    <!-- contenedor de el avatar (foto de Dross)  -->
+    <div>
+    <ion-avatar>
+      <img alt="" src="https://pbs.twimg.com/media/E9k1SVXWQAYUP03?format=jpg&name=large" />
+
+      <!-- Componente para titulo -->
+      <app-main-title></app-main-title> 
+    </ion-avatar>
+
+
+    <!-- Componente (input) para correo y contraseña -->
+          <app-main-form></app-main-form>
+        </div>
+
+
+          
+    <a [routerLink]="['/reset-password']">¿Olvidaste tu contraseña?<br>Recupérala aquí</a>
+    <br>
+    <ion-button (click)="enviarInfo()" class="boton-ingresar">Iniciar sesión</ion-button>
+
+    
+  </div>
+  
+
+  <app-triangle></app-triangle>
+  <img id="imagenFooter" src="../../assets/icon/FOOTER LOGIN DUOC.png"/>
+</ion-content>
+ 
+
+
+
